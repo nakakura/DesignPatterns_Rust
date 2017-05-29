@@ -7,4 +7,9 @@ authors = ["Toshiya Nakakura <nakakura@me.com>"]
 name = "command"
 path = "src/command/main.rs"
 
+[[bin]]
+name = "state"
+path = "src/state/main.rs"
+
 [dependencies]
+rand = "0.3"
