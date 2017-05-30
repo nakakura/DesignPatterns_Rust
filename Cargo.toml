@@ -11,5 +11,9 @@ path = "src/command/main.rs"
 name = "state"
 path = "src/state/main.rs"
 
+[[bin]]
+name = "strategy"
+path = "src/strategy/main.rs"
+
 [dependencies]
 rand = "0.3"
